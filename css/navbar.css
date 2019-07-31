@@ -1,0 +1,45 @@
+ul.nav {
+	flex-grow: 12;
+	text-align: center;
+	font-size:  1.8em;
+	display: flex;
+	flex-direction: inherit;
+	justify-content: space-between;
+}
+
+.bg_9f8964{
+	background-color: #9f8964;
+}    
+
+
+.text_E0CC99{
+	color: #E0CC99;
+}
+
+
+.icon {
+	fill: #E0CC99;	
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+}
+
+.nav-item:hover .text_E0CC99,
+.nav-item:hover .icon {
+	color: #3C2415;
+	fill: #3C2415;
+	transition: all .4s ease;	
+}
+
+
+
+/*phan view icon*/
+
+
+.icon_view{
+	height: 50px;
+	width: 55px;
+}
